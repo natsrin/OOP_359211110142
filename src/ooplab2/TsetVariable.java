@@ -25,6 +25,16 @@ public class TsetVariable {
             System.out.println(msg);
             String msg2 = s.concat(name);
             System.out.println(msg2);
+            System.out.println(msg.length());
+            System.out.println(msg.toUpperCase());
+            System.out.println(msg.toUpperCase());
+            //    Boolean
+            boolean b = true;
+            boolean b1 = false;
+            System.out.println(b);
+            System.out.println(b1);
+
+
 
 
  //
@@ -36,4 +46,4 @@ public class TsetVariable {
 
 
     }// class
-}
+
