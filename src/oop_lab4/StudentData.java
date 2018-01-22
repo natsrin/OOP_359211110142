@@ -1,13 +1,16 @@
 package oop_lab4;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+//เขียนโปรแกรมเพื่อรับค่าข้อมูลของนักศึกษาหนึ่งคนโดยมีข้อมูลดังนี้
+//1. ชื่อ-สกุล
+//2. รหัสนักศึกษา
+//3. สาขาที่เรียน และคณะ
+//4. ที่อยู่
+//5. email
+//หมายเหตุ: ต้องรับค่าข้อมูลแต่ละข้อมูลโดยการใช้ Methods
 public class StudentData {
-}
-//1.ชื่อ-สกุล
-//2.รหัสนักศึกษา
-//3.สาขาที่เรียน และคณะ
-//4.ที่อยู่
-//5.email
-public abstract class StudentData {
     static BufferedReader reader = new BufferedReader(
             new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
@@ -53,4 +56,6 @@ public abstract class StudentData {
         //return s;
         return reader.readLine();
     }
+
+
 }//class
