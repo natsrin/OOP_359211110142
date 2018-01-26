@@ -1,4 +1,4 @@
-package ooplab2;
+package oop_lab3.ooplab2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

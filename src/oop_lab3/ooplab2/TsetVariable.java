@@ -1,4 +1,4 @@
-package ooplab2;
+package oop_lab3.ooplab2;
 
 public class TsetVariable {
         public static void main(String[] args) {
