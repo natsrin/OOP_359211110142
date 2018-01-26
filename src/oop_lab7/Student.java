@@ -1,7 +1,9 @@
 package oop_lab7;
 
 public class Student {
+    public static int age;
     //properties of Student class
+    public String group;
     private String id;
     private String name;
     private String pid;
