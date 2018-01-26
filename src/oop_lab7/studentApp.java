@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class studentApp {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //create object as Student
-        Student s1 =new Student();
+        Student s1 = new Student();
         s1.setId("0001");
         s1.setName("Boy Saiyai");
         s1.setPid("1111111111111");
@@ -20,11 +20,11 @@ public class studentApp {
                 "2222222222222",
                 "22/22 T.Thamyai A.Thungsong");
 
-         System.out.println(s2.toString());
+        System.out.println(s2.toString());
 
         Student s3 = new Student();
-      //  s3 = inputData(s3);
-      //  System.out.println(s3.toString());
+        //  s3 = inputData(s3);
+        //  System.out.println(s3.toString());
 
         System.out.println(s2.getId());
         s2.setId("004");
@@ -32,12 +32,11 @@ public class studentApp {
         s2.group = "IS223";
         System.out.println(s2.group);
         System.out.println(Student.age);
-        Student.age= 20;
-        s2.age =30;
+        Student.age = 20;
+        s2.age = 30;
         System.out.println(Student.age);
         System.out.println(s2.age);
-
-    }//main
+    }
 
     private static Student inputData(Student s) {
         Scanner scanner = new Scanner(System.in);
