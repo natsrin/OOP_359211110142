@@ -9,6 +9,9 @@ public class Engine {
         this.type = type;
     }
 
+    public Engine(String size, String s) {
+    }
+
     @Override
     public String toString() {
         return "Engine{" +

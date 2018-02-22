@@ -13,6 +13,9 @@ public class Car {
         this.engine = engine;
     }
 
+    public Car(String honda, String red, Engine engine) {
+    }
+
     @Override
     public String toString() {
         return "Car{" +
